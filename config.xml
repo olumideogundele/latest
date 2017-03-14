@@ -53,7 +53,6 @@
     <gap:plugin name="org.apache.cordova.media" source="npm"/>
     <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
  
-    <icon src="images/logo.png" />
 	 
     <access origin="*" />
  
