@@ -64,8 +64,8 @@
     <icon src="images/AppIcon/Icon-App-72x72@1x.png" gap:platform="ios" width="72" height="72" />
 
     <!-- iPhone / iPod Touch - 5-5s -->
-    <icon src="images/AppIcon/Icon-App-60x60@1x.png" gap:platform="ios" width="60" height="60" />
-    <icon src="images/AppIcon/Icon-App-83.5x83.5@2x.png" gap:platform="ios" width="120" height="120" />
+    <icon src="images/60X60.png" gap:platform="ios" width="60" height="60" />
+    <icon src="images/120X120.png" gap:platform="ios" width="120" height="120" />
     <!-- iPhone6-6+ -->
     <icon src="images/180X180.png" gap:platform="ios" width="180" height="180" />
 
