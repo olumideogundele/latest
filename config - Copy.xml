@@ -36,11 +36,6 @@
     <preference name="android-targetSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
 <!--	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />-->
-
- <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" xcconfigEnforce="true"/>
- 
- <preference name="target-device" value="handset" />
-<preference name="deployment-target" value="8.0" />
 	 
 	<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> 
    
@@ -61,37 +56,27 @@
 	 
     <access origin="*" />
  
-<icon src="icon.png" />
 
 
-<!-- iPhone 6 / 6+ -->
-<icon src="images/ios/Icon-App-60x60@3x" platform="ios" width="180" height="180" />
+    <!-- iPhone / iPod Touch  - lower 4s -->
+    <icon src="images/AppIcon/Icon-App-57x57@1x.png" gap:platform="ios" width="57" height="57" />
+    <icon src="images/144x144.png" gap:platform="ios" width="114" height="114" />
+    <icon src="images/AppIcon/Icon-App-72x72@1x.png" gap:platform="ios" width="72" height="72" />
 
-<!-- iPhone / iPod Touch  -->
-<icon src="images/ios/Icon-60.png" platform="ios" width="60" height="60" />
-<icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
+    <!-- iPhone / iPod Touch - 5-5s -->
+    <icon src="images/60X60.png" gap:platform="ios" width="60" height="60" />
+    <icon src="images/120X120.png" gap:platform="ios" width="120" height="120" />
+    <!-- iPhone6-6+ -->
+    <icon src="images/180X180.png" gap:platform="ios" width="180" height="180" />
 
-<!-- iPad -->
-<icon src="images/ios/Icon-App-76x76@1x.png" platform="ios" width="76" height="76" />
-<icon src="images/ios/Icon-App-76x76@2x.png" platform="ios" width="152" height="152" />
-<icon src="images/ios/Icon-App-83.5x83.5@2x.png" platform="ios" width="167" height="167" />
+    <!-- Settings Icon -->
+    <icon src="images/AppIcon/Icon-App-29x29@1x.png" gap:platform="ios" width="29" height="29" />
+    <icon src="images/AppIcon/Icon-App-57x57@1x.png" gap:platform="ios" width="58" height="58" />
 
-<!-- Settings Icon -->
-<icon src="images/ios/Icon-App-29x29@1x.png" platform="ios" width="29" height="29" />
-<icon src="images/ios/Icon-App-29x29@2x.png" platform="ios" width="58" height="58" />
-<icon src="images/ios/Icon-App-29x29@3x.png" platform="ios" width="87" height="87" />
-
-<!-- Spotlight Icon -->
-<icon src="images/ios/Icon-App-20x20@2x.png" platform="ios" width="40" height="40" />
-<icon src="images/ios/Icon-App-40x40@2x.png" platform="ios" width="80" height="80" />
-<icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
-
-
-
-
-
-
- 
+    <!-- Spotlight Icon -->
+    <icon src="images/AppIcon/Icon-App-40x40@1x.png" gap:platform="ios" width="40" height="40" />
+    <icon src="images/Icon-App-83.5x83.5@2x.png" gap:platform="ios" width="80" height="80" />
+	
 	
 	 
 	
