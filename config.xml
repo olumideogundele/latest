@@ -40,9 +40,9 @@
  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" xcconfigEnforce="true"/>
  
  <preference name="target-device" value="handset" />
-<preference name="deployment-target" value="8.0" />
+<preference name="deployment-target" value="10.0" />
 	 
-	<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> 
+	<!--<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> -->
    
  
     <gap:plugin name="org.apache.cordova.console" source="npm" />
@@ -103,12 +103,13 @@
 	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />
  
 	
-	
+	<plugin name="cordova-plugin-geolocation"  spec="https://github.com/apache/cordova-plugin-geolocation.git"/>
+ <plugin name="cordova-plugin-network-information"  spec="https://github.com/apache/cordova-plugin-network-information.git" />
 
     <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
 
     <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
-    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
+   <!-- <gap:plugin name="cordova-plugin-geolocation" source="npm"/> -->
 	 
 		<feature name="http://api.phonegap.com/1.0/file" />
 		<feature name="http://api.phonegap.com/1.0/geolocation" />
