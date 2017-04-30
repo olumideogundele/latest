@@ -2,7 +2,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.binarysoft.emumap"
 	versionCode="4"
-	version   = "4.1">
+	version   = "4.2">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
@@ -17,10 +17,10 @@
     <description>Punch in made easy</description>
     <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis</author>
     <!--<content src="index.html" />-->
-    <preference name="permissions" value="none" />
+   <!-- <preference name="permissions" value="none" />-->
 	<preference name="android-build-tool" value="gradle" />
     <preference name="orientation" value="default" />
-    <preference name="target-device" value="universal" />
+   <!--  <preference name="target-device" value="universal" />-->
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
     <preference name="disallowOverscroll" value="true" />
@@ -42,7 +42,7 @@
  <preference name="target-device" value="handset" />
 <preference name="deployment-target" value="10.0" />
 	 
-	<!--<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> -->
+ 
    
  
     <gap:plugin name="org.apache.cordova.console" source="npm" />
@@ -57,8 +57,8 @@
     <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
     <gap:plugin name="org.apache.cordova.media" source="npm"/>
     <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
- 
-	 
+   <gap:plugin name="org.apache.cordova.geolocation" source="npm"/> 
+	<plugin name="cordova-plugin-geolocation" spec="~2.3.0" /> 
     <access origin="*" />
  
 <icon src="icon.png" />
@@ -85,31 +85,20 @@
 <icon src="images/ios/Icon-App-20x20@2x.png" platform="ios" width="40" height="40" />
 <icon src="images/ios/Icon-App-40x40@2x.png" platform="ios" width="80" height="80" />
 <icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
-
-
-
-
-
-
- 
-	
-	 
-	
-	
-	<icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
+ <icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="images/48x48.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="images/72x72.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="images/92x92.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />
  
-	
+	<gap:plugin name="cordova-plugin-geolocation" source="npm"/>
 	<plugin name="cordova-plugin-geolocation"  spec="https://github.com/apache/cordova-plugin-geolocation.git"/>
  <plugin name="cordova-plugin-network-information"  spec="https://github.com/apache/cordova-plugin-network-information.git" />
 
     <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
 
     <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
-   <!-- <gap:plugin name="cordova-plugin-geolocation" source="npm"/> -->
+ 
 	 
 		<feature name="http://api.phonegap.com/1.0/file" />
 		<feature name="http://api.phonegap.com/1.0/geolocation" />
