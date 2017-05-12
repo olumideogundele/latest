@@ -2,7 +2,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.binarysoft.emumap"
 	versionCode="4"
-	version   = "4.2">
+	version   = "4.3">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
@@ -65,10 +65,10 @@
 
 
 <!-- iPhone 6 / 6+ -->
-<icon src="images/ios/Icon-App-60x60@3x" platform="ios" width="180" height="180" />
+<icon src="images/ios/Icon-App-60x60@3x.png" platform="ios" width="180" height="180" />
 
 <!-- iPhone / iPod Touch  -->
-<icon src="images/ios/Icon-60.png" platform="ios" width="60" height="60" />
+<icon src="images/ios/Icon-App-60x60@1x.png" platform="ios" width="60" height="60" />
 <icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
 
 <!-- iPad -->
@@ -85,11 +85,11 @@
 <icon src="images/ios/Icon-App-20x20@2x.png" platform="ios" width="40" height="40" />
 <icon src="images/ios/Icon-App-40x40@2x.png" platform="ios" width="80" height="80" />
 <icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
- <icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
+<!--  <icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="images/48x48.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="images/72x72.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="images/92x92.png" gap:platform="android" gap:density="xhdpi" />
-	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />-->
  
 	<gap:plugin name="cordova-plugin-geolocation" source="npm"/>
 	<plugin name="cordova-plugin-geolocation"  spec="https://github.com/apache/cordova-plugin-geolocation.git"/>
