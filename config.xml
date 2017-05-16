@@ -67,6 +67,14 @@
 <!-- iPhone 6 / 6+ -->
 <icon src="images/ios/Icon-App-60x60@3x.png" platform="ios" width="180" height="180" />
 
+<icon src="images/ios/Icon-72@2x.png" platform="ios" width="144" height="144" />
+<icon src="images/ios/Icon-76@2x.png" platform="ios" width="152" height="152" />
+
+
+
+
+
+
 <!-- iPhone / iPod Touch  -->
 <icon src="images/ios/Icon-App-60x60@1x.png" platform="ios" width="60" height="60" />
 <icon src="images/ios/Icon-App-40x40@3x.png" platform="ios" width="120" height="120" />
@@ -106,9 +114,11 @@
 		<feature name="http://api.phonegap.com/1.0/network" />
 		<feature name="http://api.phonegap.com/1.0/notification" />
 
-    <allow-intent href="http://*/*" />
+		
+		 <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
@@ -117,5 +127,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-    </platform>
+</platform>
+		
+   
 </widget>
