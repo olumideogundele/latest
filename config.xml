@@ -64,6 +64,8 @@
     <access origin="*" />
  
 <icon src="icon.png" />
+
+<!--
   <gap:plugin name="org.apache.cordova.geolocation" source="npm"/> 
 	<plugin name="cordova-plugin-geolocation" spec="~2.3.0" /> 
  <plugin name="Geolocation" value="CDVLocation" />
@@ -71,7 +73,7 @@
 	<plugin name="cordova-plugin-geolocation"  spec="https://github.com/apache/cordova-plugin-geolocation.git"/>
  <plugin name="cordova-plugin-network-information"  spec="https://github.com/apache/cordova-plugin-network-information.git" />
 <feature name="http://api.phonegap.com/1.0/geolocation" />
-
+-->
 
 
     <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
