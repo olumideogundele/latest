@@ -43,7 +43,7 @@
 <preference name="deployment-target" value="10.0" />
 	 
  
-    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+     
 
 <plugin name="Geolocation" value="CDVLocation" />
 
