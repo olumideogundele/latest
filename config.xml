@@ -2,7 +2,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.binarysoft.emumap"
 	versionCode="4"
-	version   = "4.5">
+	version   = "4.7">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
@@ -40,7 +40,7 @@
  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" xcconfigEnforce="true"/>
  
  <preference name="target-device" value="handset" />
-<preference name="deployment-target" value="10.0" />
+<!--<preference name="deployment-target" value="10.0" />-->
 	 
  
      
