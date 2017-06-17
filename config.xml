@@ -1,10 +1,9 @@
-		<?xml version="1.0" encoding="UTF-8"?>
-	<widget xmlns = "http://www.w3.org/ns/widgets"
-		xmlns:gap = "http://phonegap.com/ns/1.0"
-		xmlns:android = "http://schemas.android.com/apk/res/android"
-		id        = "com.binarysoft.emumap"
-		versionCode="4"
-		version   = "4.9">
+		<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.binarysoft.emumap"
+	versionCode="4"
+	version   = "4.9">
+	<preference name="phonegap-version" value="cli-6.5.0"/>
 		<name>SHIFTCLOCKER INCORPORATED		</name>
 		<description>Punch in made easy		</description>
 		<author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis		</author>
