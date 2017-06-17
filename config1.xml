@@ -1,0 +1,144 @@
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.binarysoft.emumap"
+	versionCode="4"
+	version   = "4.8">
+	<preference name="phonegap-version" value="cli-6.5.0"/>
+
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+	
+    <name>SHIFTCLOCKER INCORPORATED</name>
+    <description>Punch in made easy</description>
+    <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis</author>
+    <!--<content src="index.html" />-->
+   <!-- <preference name="permissions" value="none" />-->
+	<preference name="android-build-tool" value="gradle" />
+    <preference name="orientation" value="default" />
+   <!--  <preference name="target-device" value="universal" />-->
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+	<preference name="ErrorUrl" value="error.html" />
+
+	<preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-installLocation" value="auto" />
+<!--	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />-->
+
+ <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" xcconfigEnforce="true"/>
+ 
+ <preference name="target-device" value="handset" />
+<!--<preference name="deployment-target" value="10.0" />-->
+	 
+ 
+     
+
+
+
+ 
+    <gap:plugin name="org.apache.cordova.console" source="npm" />
+ 
+    <gap:plugin name="org.apache.cordova.device" source="npm" />
+    <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
+    <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
+    <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
+    <gap:plugin name="org.apache.cordova.file" source="npm"/>
+    <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
+    <gap:plugin name="org.apache.cordova.globalization" source="npm"/>
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+    <gap:plugin name="org.apache.cordova.media" source="npm"/>
+    <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+ 
+    <access origin="*" />
+ 
+<icon src="icon.png" />
+
+
+  <gap:plugin name="org.apache.cordova.geolocation" source="npm"/> 
+	<plugin name="cordova-plugin-geolocation" spec="~2.3.0" /> 
+ 
+	<gap:plugin name="cordova-plugin-geolocation" source="npm"/>
+	<plugin name="cordova-plugin-geolocation"  spec="https://github.com/apache/cordova-plugin-geolocation.git"/>
+ <plugin name="cordova-plugin-network-information"  spec="https://github.com/apache/cordova-plugin-network-information.git" />
+<feature name="http://api.phonegap.com/1.0/geolocation" />
+
+
+<!--
+<plugin name="Geolocation" value="CDVLocation" />
+-->
+
+
+    <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
+
+    <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
+ 
+	 
+		<feature name="http://api.phonegap.com/1.0/file" />
+		
+		<feature name="http://api.phonegap.com/1.0/media" />
+		<feature name="http://api.phonegap.com/1.0/network" />
+		<feature name="http://api.phonegap.com/1.0/notification" />
+
+		
+		 <platform name="ios">
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  images/ios/-->
+        <icon src="images/ios/size180.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="images/ios/size60.png" width="60" height="60" />
+        <icon src="images/ios/icon120.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="images/ios/icon-76.png" width="76" height="76" />
+        <icon src="images/ios/icon-152.png" width="152" height="152" />
+        <!-- Spotlight Icon -->
+        <icon src="images/ios/icon-40.png" width="40" height="40" />
+        <icon src="images/ios/icon402x.png" width="80" height="80" />
+        <!-- iOS 6.1 -->
+        <!-- iPhone / iPod Touch -->
+        <icon src="images/ios/icon.png" width="57" height="57" />
+        <icon src="images/ios/Icon-722x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="images/ios/Icon-72.png" width="72" height="72" />
+        <icon src="images/ios/icon144.png" width="144" height="144" />
+        <!-- iPad Pro -->
+        <icon src="images/ios/icon-167.png" width="167" height="167" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="images/ios/icon-small.png" width="29" height="29" />
+        <icon src="images/ios/icon-small2x.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="images/ios/Icon-Small-50.png" width="50" height="50" />
+        <icon src="images/ios/icon-502x.png" width="100" height="100" />
+        <!-- iPad Pro -->
+        <icon src="images/ios/icon-167.png" width="167" height="167" />
+    </platform>
+		
+		
+		 <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+</platform>
+		
+   
+</widget>
