@@ -7,6 +7,8 @@
 		<name>SHIFTCLOCKER INCORPORATED		</name>
 		<description>Punch in made easy		</description>
 		<author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis		</author>
+		
+		
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/contacts" />
