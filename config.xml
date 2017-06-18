@@ -36,14 +36,15 @@
     <preference name="android-targetSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
 <!--	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
-<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" /> -->
+<plugin name="cordova-plugin-badge" spec="0.7.2" source="npm" />
+<plugin name="cordova-plugin-geolocation"  source="npm" spec="https://github.com/apache/cordova-plugin-geolocation.git" /> -->
 	 
 	<preference name="target-device" value="universal" />
 	<preference name="deployment-target" value="8.0" />
-   
+   <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
  
     <gap:plugin name="org.apache.cordova.console" source="npm" />
- 	<plugin name="cordova-plugin-geolocation"  source="npm" spec="https://github.com/apache/cordova-plugin-geolocation.git" />
+ 	
     <gap:plugin name="org.apache.cordova.device" source="npm" />
     <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
     <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
@@ -90,8 +91,7 @@
  
 	
 	
-
-    <plugin name="cordova-plugin-whitelist" version="1" source="npm"/>
+ 
 
     <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
     
