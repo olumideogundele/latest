@@ -42,7 +42,7 @@
 	<preference name="target-device" value="universal" />
 	<preference name="deployment-target" value="8.0" />
  
-	   <gap:plugin name="cordova-plugin-badge" source="npm" spec="https://github.com/katzer/cordova-plugin-badge.git""  />
+	   <gap:plugin name="cordova-plugin-badge" source="npm" spec="https://github.com/katzer/cordova-plugin-badge.git" />
 	
    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
  
