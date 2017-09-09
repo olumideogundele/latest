@@ -41,6 +41,9 @@
 	 
 	<preference name="target-device" value="universal" />
 	<preference name="deployment-target" value="8.0" />
+ 
+	   <gap:plugin name="cordova-plugin-badge" source="npm" spec="https://github.com/katzer/cordova-plugin-badge.git""  />
+	
    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
  
     <gap:plugin name="org.apache.cordova.console" source="npm" />
@@ -97,6 +100,9 @@
     
 	 
 		<feature name="http://api.phonegap.com/1.0/file" />
+		
+		
+		
 		 
 		<feature name="http://api.phonegap.com/1.0/media" />
 		<feature name="http://api.phonegap.com/1.0/network" />
