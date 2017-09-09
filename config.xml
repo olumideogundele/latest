@@ -46,7 +46,7 @@
 	
    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
  
-    <gap:plugin name="org.apache.cordova.console" source="npm" />
+
  	
     <gap:plugin name="org.apache.cordova.device" source="npm" />
     <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
