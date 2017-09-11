@@ -93,10 +93,10 @@
 
  
 	
-	
+	 <plugin name="cordova-plugin-device" value="org.apache.cordova.Device"/>
  
 
-    <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
+   <!-- <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/> -->
     
 	 
 		<feature name="http://api.phonegap.com/1.0/file" />
